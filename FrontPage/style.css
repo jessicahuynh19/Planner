@@ -45,7 +45,7 @@ nav{
     color:crimson;
 }
 
-nal ul{
+nav ul{
     display: flex;
 }
 
@@ -72,5 +72,18 @@ nav ul li a::after{
     height: 2px;
     background-color: crimson;
     left: 0;
+    transform: scaleX(0);
 }
 
+nav ul li a::before{
+    top: 0;
+}
+
+nav ul li a::after{
+    bottom: 0;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+    transform: scaleX(1);
+}
