@@ -17,26 +17,3 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
 
 }
-
-.logo {
-    color: #069370;
-    height: 60px;
-    font-size: 36px;
-    line-height: 60px;
-    padding: 0 20px;
-    text-align: center;
-    box-sizing: border-box;
-    float: left;
-    font-weight: 700;
-    text-decoration: none;
-     
-}
-
-nav {
-    float: right;
-
-}
-
-.clearflix {
-    clear: both;
-}
