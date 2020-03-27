@@ -31,3 +31,12 @@ header {
     text-decoration: none;
      
 }
+
+nav {
+    float: right;
+
+}
+
+.clearflix {
+    clear: both;
+}
